@@ -11,7 +11,7 @@
 
 ### <font color="blue">1. 下载源代码</font>
 
-git clone 
+	git clone https://github.com/gao715108023/gerrit-tool.git
 
 ### <font color="blue">2. 在/usr/local目录下创建文件夹CodeReview </font>
 
@@ -40,7 +40,7 @@ git clone
 	review.sleep.second=60
 	
 ### <font color="blue">4. 配置`review-ignore`</font>
-review-ignore文件是用来配置忽略哪些源代码不需要遵守《阿里巴巴开发手册》规范，刚开始可以直接使用默认配置。
+`review-ignore`文件是用来配置忽略哪些源代码不需要遵守《阿里巴巴开发手册》规范，刚开始可以直接使用默认配置。
 
 	/dao/
 	pom.xml
@@ -53,14 +53,16 @@ review-ignore文件是用来配置忽略哪些源代码不需要遵守《阿里�
 
 ### <font color="blue">5. 编译源代码</font>
 	mvn clean install -DskipTests -P dev
-### <font color="blue">6. 拷贝target目录下的target/gerrit-code-review.zip包至/usr/local/CodeReview目录下</font>
+### <font color="blue">6. 拷贝`target`目录下的`target/gerrit-code-review.zip`包至`/usr/local/CodeReview`目录下</font>
 ### <font color="blue">7. 解压缩</font>
-unzip gerrit-code-review.zip
+	unzip gerrit-code-review.zip
 ### <font color="blue">3. 启动</font>
-执行service.sh
+执行`service.sh`
 	
 	./service.sh start
 
-日志中输出gerrit code review service server started则代表启动成功！
+日志中输出如下信息则代表启动成功！
+
+	gerrit code review service server started
 
 
