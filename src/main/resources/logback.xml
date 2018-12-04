@@ -11,12 +11,12 @@
   </appender>
 
   <appender class="ch.qos.logback.core.rolling.RollingFileAppender" name="InfoFile">
-    <file>${user.home}/CodeReview/info/info.log</file>
+    <file>${log.file}/info/info.log</file>
     <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
       <level>info</level>
     </filter>
     <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-      <FileNamePattern>${user.home}/CodeReview/info/info-%d{yyyy-MM-dd}-%i.log</FileNamePattern>
+      <FileNamePattern>${log.file}/info/info-%d{yyyy-MM-dd}-%i.log</FileNamePattern>
       <timeBasedFileNamingAndTriggeringPolicy
         class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
         <maxFileSize>20MB</maxFileSize>
