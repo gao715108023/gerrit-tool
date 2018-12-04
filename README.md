@@ -56,7 +56,7 @@
 ### <font color="blue">6. 拷贝`target`目录下的`target/gerrit-code-review.zip`包至`/usr/local/CodeReview`目录下</font>
 ### <font color="blue">7. 解压缩</font>
 	unzip gerrit-code-review.zip
-### <font color="blue">3. 启动</font>
+### <font color="blue">8. 启动</font>
 执行`service.sh`
 	
 	./service.sh start
