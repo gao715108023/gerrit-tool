@@ -29,7 +29,7 @@ JAVA_OPTS="${JAVA_OPT_1} ${JAVA_OPT_2} ${JAVA_OPT_4} ${JAVA_OPT_5} ${JAVA_OPT_6}
 
 JAVA="$JAVA_HOME/bin/java"
 #设定关键字，用来查找服务，stop时关闭服务
-KEYWORD="com.alfred.gerrit.codereview.Gerrit"
+KEYWORD="com.github.gerrit.codereview.Gerrit"
 
 # Returns 0 if the process with PID $1 is running.
 function checkProcessIsRunning {

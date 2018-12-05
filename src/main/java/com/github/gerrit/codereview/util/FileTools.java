@@ -1,4 +1,4 @@
-package com.alfred.gerrit.codereview.util;
+package com.github.gerrit.codereview.util;
 
 import java.io.File;
 import java.io.IOException;

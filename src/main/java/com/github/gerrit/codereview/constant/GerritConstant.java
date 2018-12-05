@@ -1,4 +1,4 @@
-package com.alfred.gerrit.codereview.constant;
+package com.github.gerrit.codereview.constant;
 
 /**
  * @author GaoChuanjun

@@ -1,10 +1,10 @@
-package com.alfred.gerrit.codereview;
+package com.github.gerrit.codereview;
 
-import com.alfred.gerrit.codereview.constant.GerritConstant;
-import com.alfred.gerrit.codereview.ignore.ReviewIgnore;
-import com.alfred.gerrit.codereview.pmd.PMDCommand;
-import com.alfred.gerrit.codereview.util.ConfigUtil;
-import com.alfred.gerrit.codereview.util.FileTools;
+import com.github.gerrit.codereview.constant.GerritConstant;
+import com.github.gerrit.codereview.ignore.ReviewIgnore;
+import com.github.gerrit.codereview.pmd.PMDCommand;
+import com.github.gerrit.codereview.util.ConfigUtil;
+import com.github.gerrit.codereview.util.FileTools;
 import com.google.gerrit.extensions.api.GerritApi;
 import com.google.gerrit.extensions.api.changes.ChangeApi;
 import com.google.gerrit.extensions.api.changes.Changes;

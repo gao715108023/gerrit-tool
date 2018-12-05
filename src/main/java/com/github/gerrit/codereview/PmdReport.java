@@ -1,4 +1,4 @@
-package com.alfred.gerrit.codereview;
+package com.github.gerrit.codereview;
 
 import java.util.ArrayList;
 import java.util.List;

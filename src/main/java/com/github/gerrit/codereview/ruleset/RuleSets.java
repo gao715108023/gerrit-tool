@@ -1,4 +1,4 @@
-package com.alfred.gerrit.codereview.ruleset;
+package com.github.gerrit.codereview.ruleset;
 
 import java.io.File;
 import java.util.Collection;

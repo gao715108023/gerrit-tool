@@ -1,10 +1,10 @@
-package com.alfred.gerrit.codereview.pmd;
+package com.github.gerrit.codereview.pmd;
 
-import com.alfred.gerrit.codereview.ParsePmdXml;
-import com.alfred.gerrit.codereview.PmdReport;
-import com.alfred.gerrit.codereview.constant.PMDConstant;
-import com.alfred.gerrit.codereview.ruleset.RuleSets;
-import com.alfred.gerrit.codereview.util.ConfigUtil;
+import com.github.gerrit.codereview.ParsePmdXml;
+import com.github.gerrit.codereview.PmdReport;
+import com.github.gerrit.codereview.constant.PMDConstant;
+import com.github.gerrit.codereview.ruleset.RuleSets;
+import com.github.gerrit.codereview.util.ConfigUtil;
 import com.google.common.base.Strings;
 import net.sourceforge.pmd.cli.PMDCommandLineInterface;
 import org.slf4j.Logger;

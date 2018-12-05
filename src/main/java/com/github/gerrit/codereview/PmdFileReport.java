@@ -1,4 +1,4 @@
-package com.alfred.gerrit.codereview;
+package com.github.gerrit.codereview;
 
 /**
  * @author GaoChuanjun

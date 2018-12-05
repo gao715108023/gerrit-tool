@@ -1,7 +1,6 @@
-package com.alfred.gerrit.codereview;
+package com.github.gerrit.codereview;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.Iterator;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;

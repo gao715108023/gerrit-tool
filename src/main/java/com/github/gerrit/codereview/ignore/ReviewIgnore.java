@@ -1,4 +1,4 @@
-package com.alfred.gerrit.codereview.ignore;
+package com.github.gerrit.codereview.ignore;
 
 import java.io.IOException;
 import java.io.InputStream;
